@@ -1,0 +1,13 @@
+{
+    "name": "spamcheck",
+    "version": "0.0.1",
+    "description": "Uses stopforumspam.com API to compare usernames, emails, and ip addresses to their spam database.",
+    "main": "index.js",
+    "author": "Daniel Kleehammer",
+    "keywords": ["spam", "stopforumspam", "registration", "control"],
+    "repository" : {
+        "type": "git",
+        "url": "git@github.com:dkleehammer/node-stopforumspam.git"
+    },
+    "engines": { "node": "*" }
+}
