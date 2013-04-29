@@ -9,7 +9,7 @@ Helps weed out spam accounts during signups.  Allows you to check usernames, ema
 
 ### Use in registration page
 ```javascript
-var sfs = require('../lib/util/stopforumspam');  // get our object
+var sfs = require('spamcheck');  // get our object
 
 // call checkspammer with any mixture of the following properties in the object to check: ['username', 'email', 'password']
 sfs.checkSpammer({ip: req.connection.remoteAddress, email: req.body.email}, function(err, isSpammer) {
