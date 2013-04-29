@@ -1,6 +1,6 @@
 {
     "name": "spamcheck",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Uses stopforumspam.com API to compare usernames, emails, and ip addresses to their spam database.",
     "main": "index.js",
     "author": "Daniel Kleehammer",
