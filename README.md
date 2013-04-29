@@ -11,7 +11,7 @@ Helps weed out spam accounts during signups.  Allows you to check usernames, ema
 ```javascript
 var sfs = require('spamcheck');  // get our object
 
-// call checkspammer with any mixture of the following properties in the object to check: ['username', 'email', 'password']
+// call checkspammer with any mixture of the following properties in the object to check: ['username', 'email', 'ip']
 sfs.checkSpammer({ip: req.connection.remoteAddress, email: req.body.email}, function(err, isSpammer) {
   if (err) console.log(err);
   
