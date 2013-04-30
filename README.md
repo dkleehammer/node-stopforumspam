@@ -36,4 +36,4 @@ Please visit the stopforumspam.com API documenation to fully understand the way 
 StopForumSpam.com will allow up to 20,000 API requests daily.  If you need more, please see their database page.  They provide hourly updates to their database that you can
 download and work with directly and locally.
 
-### [StopForumSpam.com API](http://www.stopforumspam.com/downloads/)
+### [StopForumSpam.com Database](http://www.stopforumspam.com/downloads/)
